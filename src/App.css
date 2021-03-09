@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --dark: #000;
+  --light: #FFF;
+  --warning: #FF2828;
+  --gray: #262626;
+  --lightGray: #4D4D4D;
+  --orangeRed: #FF5000;
+  --success: forestgreen;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 60vw;
+  font-size: 1.2em;
+  color: var(--light);
+  background-color: var(--dark);
+  font-family: "Roboto", sans-serif;
+}
+
+.activeTab {
+  list-style-type: armenian;
+  background-color: var(--gray);
+}
+
+
+
+.tabLink{
+  color: var(--light);
+  list-style-type: armenian;
+  padding: 20px;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    max-width: 100vw;
+  }
+}
