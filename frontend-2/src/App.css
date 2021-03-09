@@ -1,0 +1,53 @@
+* { 
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background: black;
+}
+
+
+nav {
+  background: blue;
+  padding: 15px;
+  width: 100%;
+  color: white;
+}
+
+.navLink {
+  color: white;
+  margin: 50px;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: red;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+  margin: 20px 150px 20px 150px;
+  background: white;
+  justify-content: center;
+  border: 5px solid gray;
+  border-radius: 20px;
+}
+
+.form > * {
+  margin: 5px;
+}
+
+.process {
+  padding: 10px; 
+  background: green;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.instructions {
+  color: green;
+}
